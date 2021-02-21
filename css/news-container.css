@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 #news-container {
   background-color: whitesmoke;
 }
@@ -44,8 +45,11 @@
 /* BASIC TEXT FORMAT */
 
 .news h1 {
+  color: rgb(250,250,250);
+  text-shadow: 2px 2px red,2px 2px 5px rgb(0,0,0,0.6);
+  font-size: 2.7rem;
   text-align: center;
-  font-size: 1.5rem;
+  font-family: 'Bree Serif', serif;
 }
 .news p {
   text-align: justify;

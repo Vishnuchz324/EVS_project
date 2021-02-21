@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 #cards-container {
   margin: 30px 30px;
   padding: 2px 16px;
@@ -14,9 +15,12 @@
   padding: 30px;
   margin: 30px 0px;
   width: 25%;
-  border-radius: 5px;
-  border: 1px solid rgb(0, 0, 0, 0.1);
+/*   border-radius: 5px;
+  border: 1px solid rgb(0, 0, 0, 0.1); */
   background-color: white;
+}
+.card-border{
+  border: 1px solid rgb(0, 0, 0, 0.2);
 }
 
 /* FONT FORMAT */
@@ -33,7 +37,7 @@
   text-align: justify;
   color: rgb(0, 0, 0, 0.7);
 }
-.card a {
+.card button {
   text-decoration: none;
   padding: 5px;
   font-size: small;
@@ -42,13 +46,23 @@
   background-color: #00719c;
   color: white;
   font-family: Merriweather, serif;
+  outline: none;
 }
-.card a:hover {
+.card button:hover {
   transition: 0.5s;
   background-color: white;
   color: #00719c;
   border-radius: 5px;
   border: 2px solid #00719c;
+}
+#news-reports-container h2 {
+  color: green;
+  text-shadow: 2px 2px white,2px 2px 5px rgb(0,0,0,0.5);
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: 'Bree Serif', serif;
+  font-weight: 300;
+  margin: 0px;   
 }
 
 /* RESPONSIVE*/
@@ -67,7 +81,7 @@
   .card p {
     font-size: small;
   }
-  .card a {
+  .card button {
     font-size: small;
   }
 }
