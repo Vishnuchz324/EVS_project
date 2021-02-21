@@ -1,5 +1,5 @@
 #head {
-  height: 660px;
+  /* PARALLAX BACKGROUND */
 
   background-image: linear-gradient(
       0deg,
@@ -7,11 +7,13 @@
       rgba(0, 0, 0, 0.5)
     ),
     url("/images/main-bg.jpeg");
-  min-height: 500px;
+  min-height: 660px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  /* FLEX DISPLAY */
 
   display: flex;
   flex-direction: column;
@@ -19,6 +21,9 @@
   justify-content: center;
   text-align: center;
 }
+
+/* FONT FORMAT */
+
 #head h1 {
   color: white;
   font-size: 8rem;
@@ -43,7 +48,8 @@
   text-align: justify;
 }
 
-/* Responsive */
+/* RESPONSIVE*/
+
 @media screen and (max-width: 601px) {
   #head h1 {
     font-size: 4rem;
@@ -54,6 +60,5 @@
   #head p {
     margin: 5% 0%;
     text-align: center;
-    /* text-align: justify; */
   }
 }

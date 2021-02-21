@@ -2,13 +2,15 @@
   background-color: whitesmoke;
 }
 
-/* FOR TEXT IN WNHITE BANNER */
+/* FOR TEXT IN WHITE BANNER */
+
 .news-text-white {
   margin: 30px;
   padding: 5px 16px;
 }
 
 /* FOR PARALLAX IMAGE */
+
 .news-text-img {
   background-image: linear-gradient(
       0deg,
@@ -23,6 +25,7 @@
 }
 
 /* FOR TEXT ON IMAGE */
+
 .news-text-overlay {
   background-image: linear-gradient(
       0deg,
@@ -39,6 +42,7 @@
 }
 
 /* BASIC TEXT FORMAT */
+
 .news h1 {
   text-align: center;
   font-size: 1.5rem;
