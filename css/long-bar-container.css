@@ -1,0 +1,32 @@
+#long-bar-container {
+  margin: 0px;
+  padding: 40px;
+  background-color: rgb(69, 69, 206);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.box {
+  flex: 1;
+}
+.box h3 {
+  font-size: large;
+  text-align: center;
+}
+.box p {
+  text-align: center;
+}
+
+@media screen and (max-width: 601px) {
+  #long-bar-container {
+    padding: 10px 0px;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .box h3 {
+    font-size: 2rem;
+    margin: 10px;
+  }
+}
