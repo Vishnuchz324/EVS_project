@@ -13,16 +13,17 @@
 }
 .box {
   flex: 1;
+  text-align: center;
 }
 
 /* FONT FORMAT */
 
 .box h3 {
   font-size: large;
-  text-align: center;
 }
-.box p {
-  text-align: center;
+.box i{
+  margin: 5px 0px 0px 0px;
+  font-size: 5rem;
 }
 
 @media screen and (max-width: 601px) {
