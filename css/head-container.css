@@ -1,12 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 #head {
   /* PARALLAX BACKGROUND */
   height:660px;
   background-image: linear-gradient(
       0deg,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
     ),
-    url("/images/main-bg.jpeg");
+    url("/images/Title.jpg");
   min-height: 660px;
   background-attachment: fixed;
   background-position: center;
@@ -17,19 +19,21 @@
 
   display: flex;
   flex-direction: column;
-  align-content: center;
+ /* align-content: center;*/
   justify-content: center;
-  text-align: center;
+  text-align: center; 
 }
 
 /* FONT FORMAT */
 
 #head h1 {
-  color: white;
-  font-size: 8rem;
-  font-family: patua-one;
-  font-weight: 400;
-  margin: 0px;
+  color: rgb(250,250,250);
+  text-shadow: 2px 2px red,4px 4px 7px black;
+  font-size: 4rem;
+  font-family: 'Bree Serif', serif;
+  font-weight: 300;
+  margin: 0px;   
+
 }
 #head h3 {
   color: #00b8ff;
@@ -40,25 +44,27 @@
   line-height: 1.2;
 }
 #head p {
+  text-align: initial;
   color: white;
-  margin: 1% 25%;
-  font-family: Arial, sans-serif;
-  line-height: 1.8;
+  text-shadow: 2px 2px blue,3px 3px 5px black;
+  font-size: 1.5rem;
+  margin: 1% 8%;
+  font-family: Merriweather, serif;
+  line-height: 2;
   letter-spacing: 1px;
-  text-align: justify;
+  /*text-align: justify;*/
 }
 
 /* RESPONSIVE*/
 
 @media screen and (max-width: 601px) {
   #head h1 {
-    font-size: 4rem;
-  }
-  #head h3 {
-    font-size: 1rem;
+    padding: 10px;
+    font-size: 1.8rem;
   }
   #head p {
     margin: 5% 0%;
+    font-size: 0.75rem;
     text-align: center;
   }
 }
