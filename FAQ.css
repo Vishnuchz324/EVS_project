@@ -1,11 +1,8 @@
 .content {
-  width: 90%;
+  width: 80%;
   padding: 20px;
-  margin: 40px;
+  margin: 0 auto;
   padding: 0 60px 0 0;
-}
-#questions-container h1{
-  margin: 20px;
 }
 .question {
   position: relative;
@@ -16,11 +13,12 @@
   width:100%;
   cursor: pointer;
   color: white;
+/*   text-shadow: 2px 2px grey; */
 }
 
 .answers {
-  background: rgb(250,250,250);
-  padding: 0px 20px;
+  background: #999;
+  padding: 0px 15px;
   margin: 5px 0;
   height: 0;
   overflow: hidden;
@@ -66,10 +64,4 @@
 
 .questions {
   display: none;
-}
-@media screen and (max-width: 601px) {
-  .content {
-  width: 75%;
-  margin: 10px ;
-}
 }
