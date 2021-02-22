@@ -1,10 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 #footer-container {
   background-color: black;
-  height: 200px;
+  height: 195px;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img{
+width: 60%;
+margin-left: 50px;
+}
+#footer-container h3 {
+	font-size: 0.85rem;
+	margin: 5px 0px;
+  color: white;
+}
+.lni-unlink{
+	font-size: 2rem;
+	margin-top: 10px;
+	color: #00FFFF;
+	padding: 10px;
+	border: 1px solid #00FFFF;
+}
+@media screen and (max-width: 601px) {
+#footer-container {
+  background-color: black;
+  height: 250px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
-.footer h1 {
-  text-align: center;
-  color: white;
+.logo img{
+width: 60%;
+margin: 30px;
+}
+.link{
+	margin-top: 30px;
+}
 }

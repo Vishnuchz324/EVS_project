@@ -1,0 +1,51 @@
+#recommendations-container {
+    margin: 30px;
+    padding: 20px 10px;
+}
+#recommendations-container ul{
+	padding: 0px;
+}
+#recommendations-container ul{
+list-style-type: none;
+}
+
+.lni-paperclip{
+margin-right: 10px;
+margin-bottom: 10px;
+font-size: 2rem;
+color: blue;
+}
+
+#recommendations-container h2 {
+    text-align: center;
+    color: rgb(0, 100, 240);
+    font-size: 2rem;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px white, 2px 2px 5px rgb(0, 0, 0, 0.5);
+    font-family: 'Bree Serif', serif;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.recommendation li {
+    color: rgb(0, 0, 0);
+    padding: 0px 0px 0px 50px;
+    margin-top: 10px;
+    word-spacing: 2px;
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: justify;
+}
+@media screen and (max-width: 601px) {
+	#recommendations-container {
+    padding: 0px;
+}
+.recommendation li {
+	padding: 0px;
+	margin-top: 20px;
+}
+.lni-paperclip{
+font-size: 1.5rem;
+color: blue;
+}
+}

@@ -24,14 +24,14 @@
 }
 
 .solution-blog-content h3 {
-  text-align: center;
-  color: rgb(0,100,240);
-  font-size: 2.5rem;
-  letter-spacing: 1px;
-  text-shadow: 2px 2px white,2px 2px 5px rgb(0,0,0,0.5);
-  font-family: 'Bree Serif', serif;
-  font-weight: 700;
-  line-height: 1.2;
+    text-align: center;
+    color: rgb(0, 100, 240);
+    font-size: 2rem;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px white, 2px 2px 5px rgb(0, 0, 0, 0.5);
+    font-family: 'Bree Serif', serif;
+    font-weight: 700;
+    line-height: 1.2;
 }
 
 .solution-blog-content p {
@@ -63,8 +63,4 @@ p.flip {
     .solution-blog-content p {
         padding: 0px;
     }
-
-  /*   .first-img{
-        width: 100%;
-    } */
 }
