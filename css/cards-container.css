@@ -25,7 +25,7 @@
 /* FONT FORMAT */
 
 .card h3 {
-  font-size: 1rem;
+  font-size: 1.4rem;
   color: #00415a;
   font-family: Merriweather, serif;
   font-weight: 800;
@@ -34,7 +34,8 @@
 }
 .card p {
   text-align: justify;
-  color: rgb(0, 0, 0, 0.7);
+     font-size: 16px;
+     line-height: 1.4;
 }
 .card button {
   text-decoration: none;

@@ -52,8 +52,12 @@
   font-family: 'Bree Serif', serif;
 }
 .news p {
+  color: rgb(0, 0, 0);
+  padding: 0px 0px 0px 50px;
+  word-spacing: 2px;
+  font-size: 18px;
+  line-height: 1.4;
   text-align: justify;
-  line-height: 1.5;
 }
 .news-text-overlay h1 {
   padding: 30px;
