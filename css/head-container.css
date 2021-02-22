@@ -44,7 +44,7 @@
   line-height: 1.2;
 }
 #head p {
-  text-align: initial;
+  text-align:center;
   color: white;
   text-shadow: 2px 2px blue,3px 3px 5px black;
   font-size: 1.5rem;
@@ -52,7 +52,6 @@
   font-family: Merriweather, serif;
   line-height: 2;
   letter-spacing: 1px;
-  /*text-align: justify;*/
 }
 
 /* RESPONSIVE*/
