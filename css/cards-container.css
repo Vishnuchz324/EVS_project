@@ -39,11 +39,11 @@
 }
 .card button {
   text-decoration: none;
-  padding: 5px;
+  padding: 8px;
   font-size: small;
-  border-radius: 5px;
-  border: 2px solid #00719c;
-  background-color: #00719c;
+  border-radius: 3px;
+  border: 2px solid green;
+  background-color: green;
   color: white;
   font-family: Merriweather, serif;
   outline: none;
@@ -51,9 +51,9 @@
 .card button:hover {
   transition: 0.5s;
   background-color: white;
-  color: #00719c;
+  color: green;
   border-radius: 5px;
-  border: 2px solid #00719c;
+  border: 2px solid green;
 }
 /* RESPONSIVE*/
 

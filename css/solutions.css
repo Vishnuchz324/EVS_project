@@ -11,7 +11,7 @@
 
 .solution-blog img {
     margin-top: 20px;
-    width: 40%;
+    width: 49%;
 }
 
 .solution-blog-content {
@@ -23,7 +23,7 @@
     outline-offset: -10px;
 }
 
-.blog-content h3 {
+.solution-blog-content h3 {
   text-align: center;
   color: rgb(0,100,240);
   font-size: 2.5rem;
@@ -33,26 +33,15 @@
   font-weight: 700;
   line-height: 1.2;
 }
-.solution-blog-content h3 {
-    text-align: center;
-    color: rgb(0, 100, 240);
-    font-size: 2rem;
-    letter-spacing: 1px;
-    text-shadow: 2px 2px white, 2px 2px 5px rgb(0, 0, 0, 0.5);
-    font-family: 'Bree Serif', serif;
-    font-weight: 700;
-    line-height: 1.2;
-}
 
 .solution-blog-content p {
-  color: rgb(0, 0, 0);
-  padding: 0px 0px 0px 50px;
-  word-spacing: 2px;
-  font-size: 18px;
-  line-height: 1.4;
-  text-align: justify;
+    color: rgb(0, 0, 0);
+    padding: 0px 0px 0px 50px;
+    word-spacing: 2px;
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: justify;
 }
-
 p.flip {
     padding: 0px 50px 0px 0px;
 }
@@ -74,4 +63,8 @@ p.flip {
     .solution-blog-content p {
         padding: 0px;
     }
+
+  /*   .first-img{
+        width: 100%;
+    } */
 }
