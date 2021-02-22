@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500&family=Bree+Serif&family=Open+Sans&family=Raleway&display=swap');
+
+.solution-blog {
+    margin: 30px;
+    padding: 20px 16px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.solution-blog img {
+    margin-top: 20px;
+    width: 40%;
+}
+
+.solution-blog-content {
+    flex: 1;
+}
+
+.solution {
+    outline: 1px solid rgb(0, 0, 0, 0.5);
+    outline-offset: -10px;
+}
+
+.solution-blog-content h3 {
+    text-align: center;
+    color: rgb(0, 100, 240);
+    font-size: 2rem;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px white, 2px 2px 5px rgb(0, 0, 0, 0.5);
+    font-family: 'Bree Serif', serif;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.solution-blog-content p {
+    color: rgb(0, 0, 0);
+    padding: 0px 0px 0px 50px;
+    word-spacing: 2px;
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: justify;
+}
+
+p.flip {
+    padding: 0px 50px 0px 0px;
+}
+
+@media screen and (max-width: 601px) {
+    .solution-blog {
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        border: none;
+    }
+
+    .solution-blog img {
+        margin-top: 30px;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .solution-blog-content p {
+        padding: 0px;
+    }
+}
